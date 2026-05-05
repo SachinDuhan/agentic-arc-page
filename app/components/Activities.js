@@ -4,7 +4,7 @@ import { useRef } from "react";
 const activities = [
   {
     title: "Club Inauguration",
-    date: "April 28, 2026",
+    date: "April 2026",
     category: "Ceremony",
     description: "The official launch of Agentic Arc, marking the beginning of our journey into Agentic AI.",
     poster: "/images/activities/innauguration/WhatsApp Image 2026-04-28 at 8.17.15 PM.jpeg",
@@ -87,8 +87,8 @@ export default function Activities() {
         </div>
 
         <div className="featured-photo-card">
-          <div 
-            className="featured-photo" 
+          <div
+            className="featured-photo"
             style={{ backgroundImage: `url('/images/activities/agents-arrival/team-photo.jpg')` }}
           />
           <div className="featured-overlay">
